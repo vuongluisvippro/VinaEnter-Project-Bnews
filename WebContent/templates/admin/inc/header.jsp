@@ -20,20 +20,7 @@
                 <div class="container_12">
                     <div class="grid_4">
                     	<ul class="user-pro">
-                    	<%
-                    		User objUser = (User)session.getAttribute("objUser");
-                    		if(objUser!=null){
-                    			%>
-                    			<li><a href="<%=request.getContextPath()%>/admin/logout">Logout</a></li>
-								<li>Chào <a><%=objUser.getFullname()%></a></li>
-								<%	
-                    		}else{
-                    			%>
-                    				<li><a href="<%=request.getContextPath()%>/admin/login">Login</a></li>
-									<li>Chào Khách</a></li>	
-                    			<%
-                    		}
-                    	%>
+         					<!--  Xử lý LOGIN - LOGOUT -->
                     	</ul>
                     </div>
                 </div>
