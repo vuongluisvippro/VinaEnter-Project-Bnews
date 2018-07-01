@@ -8,9 +8,9 @@ import java.sql.SQLException;
 public class ModelConnectDb {
 	private Connection connection = null;
 	private String username = "root";
-	private String password = "rf3vUqWVk4";
-	private String db = "qlvacxindb";
-	private String url = "jdbc:mysql://mysql33328-bnewsproject.jelastic.skali.net/"+db+"?useUnicode=true&characterEncoding=UTF-8";
+	private String password = "";
+	private String db = "bnews";
+	private String url = "jdbc:mysql://localhost:3306/"+db+"?useUnicode=true&characterEncoding=UTF-8";
 	public Connection getConnectMySQL(){
 		// nạp driver
 		try {
